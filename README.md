@@ -111,6 +111,6 @@ This project is intended for educational and machine-learning purposes only. It 
 
 ## 👩‍💻 Author
 
-**[Your Name]**
+**[ANUSHKA CHAUHAN]**
 
 If you found this project useful, feel free to ⭐ the repository.
