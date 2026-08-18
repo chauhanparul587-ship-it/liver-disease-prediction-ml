@@ -29,33 +29,27 @@ The model uses a combination of health, lifestyle, demographic, and clinical-rel
 - **Hypertension**
 
 These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
-## 🔍 Features Used
+## 🔄 Project Workflow
 
-The model uses a combination of health, lifestyle, demographic, and clinical-related features:
-
-- **Alcohol Consumption**
-- **Liver Function Test**
-- **BMI**
-- **Age**
-- **Physical Activity**
-- **Genetic Risk**
-- **Gender**
-- **Smoking**
-- **Hypertension**
-
-These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
-## 🔍 Features Used
-
-The model uses a combination of health, lifestyle, demographic, and clinical-related features:
-
-- **Alcohol Consumption**
-- **Liver Function Test**
-- **BMI**
-- **Age**
-- **Physical Activity**
-- **Genetic Risk**
-- **Gender**
-- **Smoking**
-- **Hypertension**
-
-These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
+```text
+Dataset
+   ↓
+Data Understanding
+   ↓
+Data Preprocessing
+   ↓
+Feature / Target Separation
+   ↓
+Train-Test Split
+   ↓
+Random Forest Classifier
+   ↓
+Prediction
+   ↓
+Accuracy Evaluation
+   ↓
+ROC Curve & ROC-AUC
+   ↓
+Feature Importance Analysis
+   ↓
+Interpretation
