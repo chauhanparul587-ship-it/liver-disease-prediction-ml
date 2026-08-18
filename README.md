@@ -1,47 +1,61 @@
-# 🩺 Liver Disease Prediction using Machine Learning
+# 🩺 Liver Disease Prediction — Random Forest Classification
 
-A Machine Learning project that predicts the likelihood of liver disease using patient health and lifestyle-related features.
+A supervised learning project for predicting liver disease using patient health and lifestyle-related features.
 
-This project explores data preprocessing, exploratory data analysis, machine learning model training, evaluation, feature importance analysis, and ROC-AUC analysis using Python and Scikit-learn.
+This project focuses on **binary classification using a Random Forest Classifier**, with additional model interpretation through **feature importance analysis** and performance evaluation using the **ROC curve and ROC-AUC score**.
 
----
+Rather than focusing only on prediction accuracy, the project also investigates which input features contribute most strongly to the model's predictions.## 🧠 Problem Type
 
-## 📌 Project Overview
+| Category | Details |
+|---|---|
+| Learning Type | Supervised Learning |
+| Problem Type | Binary Classification |
+| Primary Algorithm | Random Forest Classifier |
+| Number of Estimators | 100 |
+| Random State | 42 |
+| Evaluation | Accuracy, ROC Curve, ROC-AUC |
+| Interpretability | Feature Importance |## 🔍 Features Used
 
-Liver diseases can be influenced by multiple factors such as age, BMI, alcohol consumption, physical activity, genetic risk, smoking, and liver function indicators.
+The model uses a combination of health, lifestyle, demographic, and clinical-related features:
 
-The objective of this project is to build a classification model capable of predicting whether a patient is likely to have liver disease based on available clinical and lifestyle features.
+- **Alcohol Consumption**
+- **Liver Function Test**
+- **BMI**
+- **Age**
+- **Physical Activity**
+- **Genetic Risk**
+- **Gender**
+- **Smoking**
+- **Hypertension**
 
-The project follows a complete Machine Learning workflow:
+These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
+## 🔍 Features Used
 
-> **Data → Preprocessing → EDA → Feature Engineering → Model Training → Evaluation → Feature Importance → ROC Curve**
+The model uses a combination of health, lifestyle, demographic, and clinical-related features:
 
----
+- **Alcohol Consumption**
+- **Liver Function Test**
+- **BMI**
+- **Age**
+- **Physical Activity**
+- **Genetic Risk**
+- **Gender**
+- **Smoking**
+- **Hypertension**
 
-## 🎯 Objectives
+These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
+## 🔍 Features Used
 
-- Analyze the dataset and understand important health-related features.
-- Perform data preprocessing and prepare the data for Machine Learning.
-- Train a Random Forest classification model.
-- Evaluate the model using classification metrics.
-- Analyze feature importance.
-- Evaluate the model using ROC-AUC.
-- Understand which factors contribute most to the model's predictions.
+The model uses a combination of health, lifestyle, demographic, and clinical-related features:
 
----
+- **Alcohol Consumption**
+- **Liver Function Test**
+- **BMI**
+- **Age**
+- **Physical Activity**
+- **Genetic Risk**
+- **Gender**
+- **Smoking**
+- **Hypertension**
 
-## 🧠 Machine Learning Model
-
-### Random Forest Classifier
-
-The main model used in this project is:
-
-**Random Forest Classifier**
-
-Configuration:
-
-```python
-RandomForestClassifier(
-    n_estimators=100,
-    random_state=42
-)
+These features are analyzed to identify patterns that help the classifier distinguish between the two target classes.
